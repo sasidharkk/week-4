@@ -1,0 +1,131 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Magazine Cover Container */
+.magazine-cover {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Featured Image Section */
+.featured-image {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDyzibwJyiOCH5fxgV-XOF8PZUHODXbmeRJA&s'); /* Replace with actual cover image */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Title and Tagline */
+.magazine-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Headlines Section */
+.headlines {
+    padding: 20px;
+    background: #fff;
+}
+
+.headline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+    margin: 15px 0 5px;
+}
+
+.headline-desc {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Additional Content Sections */
+.extra-content {
+    padding: 20px;
+    background: #fafafa;
+    border-top: 2px solid #ddd;
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.section-desc {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    display: inline-block;
+    background-color: #e60023;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #c9001d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .magazine-cover {
+        width: 95%;
+    }
+
+    .magazine-title {
+        font-size: 2.5em;
+    }
+
+    .headline {
+        font-size: 1.3em;
+    }
+
+    .headline-desc, .section-desc {
+        font-size: 1em;
+    }
+}
